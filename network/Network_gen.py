@@ -7,7 +7,7 @@ Esse arquivo gera a topologia, a partir dos nos que estao descritos em nodes_gen
 # Imports
 import pandas as pd
 import math
-
+import nodes_gen
 
 
 def Network_gen(inputs, topo, outputs, name, input_size, output_size):
